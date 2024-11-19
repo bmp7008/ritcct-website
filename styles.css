@@ -1,7 +1,7 @@
 body {
   width: 64em;
   margin: 0 auto;
-  font-family: 'Trebuchet MS', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Helvetica', 'Noto Sans', Arial, sans-serif;
   background-color: #FFEFD5;
 }
 header {
