@@ -1,57 +1,162 @@
 body {
-  width: 64em;
+  width: 90%;
+  max-width: 64em;
   margin: 0 auto;
   font-family: 'Trebuchet MS', 'Helvetica', 'Noto Sans', Arial, sans-serif;
   background-color: #FFEFD5;
+  line-height: 1.6;
 }
+
 header {
-  padding: 0.5em 1em 0;
+  padding: 1em 2em;
   background-color: #F76902;
   color: #FFFFFF;
   text-align: center;
   border-bottom: 0.5em solid #FFFFFF;
+  border-radius: 0.5em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 header ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
+
 header ul li {
   display: inline-block;
-  margin: 0;
-  width: 8em;
+  margin: 0 1em;
+  width: auto;
+  font-size: 14pt;
   text-align: center;
+  border-radius: 0.3em;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  padding: 0 1em;
+  position: relative;
 }
+
 header ul li:hover {
   background-color: #FF4500;
+  transform: scale(1.05);
 }
+
 header ul li.selected {
   background-color: #FFFFFF;
 }
+
 header ul li a {
   text-decoration: none;
   color: #FFFFFF;
+  display: block;
+  padding: 0.5em 0;
+  font-weight: bold;
 }
+
 header ul li.selected a {
   color: #F76902;
 }
+
 .caption {
   display: inline-block;
   margin: 0;
-  padding: 1em 0.5em 0;
+  padding: 1em 1em 0;
+  color: #F76902;
   font-size: 1.25em;
   font-style: italic;
-  background: rgb(255,255,255);
-  background: -moz-linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,188,126,0.3701855742296919) 81%, rgba(247,105,2,0.3701855742296919) 100%);
-  background: -webkit-linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,188,126,0.3701855742296919) 81%, rgba(247,105,2,0.3701855742296919) 100%);
-  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,188,126,0.3701855742296919) 81%, rgba(247,105,2,0.3701855742296919) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#f76902",GradientType=1);
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,188,126,0.37) 81%, rgba(247,105,2,0.37) 100%);
   border-right: 0.25em solid #F76902;
+  border-radius: 0.5em;
 }
+
 footer {
-  padding: 0 1em 0.5em;
+  padding: 1em 2em;
   background-color: #F76902;
   color: #FFDAB9;
   text-align: center;
   border-top: 0.5em solid #FFFFFF;
+  border-radius: 0.5em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Form Styling - ChatGPT */
+form {
+  background-color: #FFFFFF;
+  padding: 2em;
+  border-radius: 0.5em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 40em;
+  margin: 2em auto;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 0.75em;
+  margin: 0.5em 0;
+  border: 1px solid #ccc;
+  border-radius: 0.3em;
+  font-size: 1em;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+  border-color: #F76902;
+  outline: none;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 10em;
+}
+
+form button {
+  background-color: #F76902;
+  color: #FFFFFF;
+  padding: 1em 2em;
+  font-size: 1em;
+  border: none;
+  border-radius: 0.3em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #FF4500;
+}
+
+form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 1em;
+  }
+
+  header ul li {
+    display: block;
+    margin: 0.5em 0;
+    width: auto;
+  }
+
+  footer {
+    padding: 1em;
+  }
+
+  form {
+    padding: 1.5em;
+  }
 }
