@@ -1,0 +1,5 @@
+ritcct.org {
+    root * /data
+    encode gzip
+    http_server
+}
