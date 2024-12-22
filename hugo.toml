@@ -1,0 +1,23 @@
+baseURL = 'https://ritcct.neocities.org/'
+languageCode = 'en-us'
+title = 'RIT Chinese Conversation Table'
+copyright = 'RIT Chinese Conversation Table'
+theme = 'whiteplain'
+
+[params]
+    dateFormat = "02 Jan 2006"
+
+[[menu.main]]
+url = "/about"
+name = "About"
+weight = 1
+
+[[menu.main]]
+url = "https://ritcct.atabook.org/"
+name = "Suggestions"
+weight = 2
+
+[[menu.main]]
+url = "https://discord.gg/7D4qKgA4Us"
+name = "Discord"
+weight = 3
