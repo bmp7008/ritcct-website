@@ -1,3 +1,7 @@
+www.ritcct.org {
+    redir https://ritcct.org{uri} permanent
+}
+
 ritcct.org {
     root * /data
     encode gzip
