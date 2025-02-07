@@ -13,8 +13,8 @@ name = "About"
 weight = 1
 
 [[menu.main]]
-url = "https://forms.gle/zTvUgpoQjdobPzap7"
-name = "Suggestions"
+url = "https://forms.gle/GZMPKYmoNBqEWpw59"
+name = "Attendance"
 weight = 2
 
 [[menu.main]]

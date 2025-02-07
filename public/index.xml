@@ -2,46 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RIT Chinese Conversation Table</title>
-    <link>https://ritcct.neocities.org/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on RIT Chinese Conversation Table</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>RIT Chinese Conversation Table</copyright>
     <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ritcct.neocities.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week 4 — What&#39;s New</title>
-      <link>https://ritcct.neocities.org/week_4_what_s_new/</link>
+      <link>http://localhost:1313/week_4_what_s_new/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ritcct.neocities.org/week_4_what_s_new/</guid>
+      <guid>http://localhost:1313/week_4_what_s_new/</guid>
       <description>&lt;p&gt;歡迎來2月!&lt;/p&gt;&#xA;&lt;p&gt;While we&amp;rsquo;re still waiting to be able to make a few changes to our scheduling, location, and advertisement — we have a new poster that we&amp;rsquo;ll start hanging on boards around campus once we&amp;rsquo;re (hopefully) officialized — at the moment, we&amp;rsquo;re still in WAL 4510 from 4-5PM.&lt;/p&gt;&#xA;&lt;p&gt;As far as activities go, we still have board and card games, and any that you might have and want to bring are welcome too — especially video games, like Jackbox games, which might be a little bit more fun &amp;amp; engaging than the separate group activities that we&amp;rsquo;ve tried before. Last week&amp;rsquo;s Google Slides presentation practice was interesting, but trying the same idea with Talking Points from Jackbox Party Pack 7 might be even better. If you have a copy of that game and want to bring it, you definitely can — if not, we&amp;rsquo;ll probably have to invest the thirty dollars sometime soon, because this seems like a good idea.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Week 3 — Updates</title>
-      <link>https://ritcct.neocities.org/week_3_updates/</link>
+      <link>http://localhost:1313/week_3_updates/</link>
       <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ritcct.neocities.org/week_3_updates/</guid>
+      <guid>http://localhost:1313/week_3_updates/</guid>
       <description>&lt;p&gt;新年快乐！&lt;/p&gt;&#xA;&lt;p&gt;This week&amp;rsquo;s meeting will run similarly to last week&amp;rsquo;s, because a lot of people are probably going to go to the New Year&amp;rsquo;s celebration events happening around campus — if you want to show up, we&amp;rsquo;ll be in WAL 4510 again from 4:00-5:00PM. Since we might have a smaller group, we&amp;rsquo;ll try to think of activities that can get us all doing the same thing (i.e. one-minute introductions).&lt;/p&gt;&#xA;&lt;p&gt;One idea that could be fun is giving everybody 15 minutes to create a presentation full of random pictures (put in whatever you want, as long as there are no words and it&amp;rsquo;s a reasonable length) and then trading presentations between people and having them improvise and give the presentation (in Mandarin, of course). If we have enough agreement that this is a good idea, we might try that this Friday (and if it&amp;rsquo;s successful, we&amp;rsquo;ll definitely do it again later).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Week 2 — First Meeting</title>
-      <link>https://ritcct.neocities.org/week_2_first_meeting/</link>
+      <link>http://localhost:1313/week_2_first_meeting/</link>
       <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ritcct.neocities.org/week_2_first_meeting/</guid>
+      <guid>http://localhost:1313/week_2_first_meeting/</guid>
       <description>&lt;p&gt;大好，我們開學了！&lt;/p&gt;&#xA;&lt;p&gt;There isn&amp;rsquo;t much new information to add for tomorrow&amp;rsquo;s meeting because we planned it out last week — we&amp;rsquo;re still going to bring board games, and we&amp;rsquo;ll be meeting in WAL 4510 on Friday, January 24, from 4:00–5:00PM.&lt;/p&gt;&#xA;&lt;p&gt;We&amp;rsquo;re going to have Chinese chess (象棋) and Catan, probably at least a few decks of cards, and whichever other board games anyone attending might have and want to bring.&lt;/p&gt;&#xA;&lt;p&gt;It is looking, though, like as we try to build the club and gain membership, we&amp;rsquo;re running into scheduling troubles — right now, on the When2Meet for this semester (which is still open, linked on the &amp;ldquo;About&amp;rdquo; tab, if you would like to change your response or fill it out if you haven&amp;rsquo;t already), there isn&amp;rsquo;t one single time that everyone is available, so we&amp;rsquo;ve been discussing introducing some ways that we can have asynchronous club engagement in addition to the in-person meetings.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Week 1 — Outline</title>
-      <link>https://ritcct.neocities.org/week_1_outline/</link>
+      <link>http://localhost:1313/week_1_outline/</link>
       <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ritcct.neocities.org/week_1_outline/</guid>
+      <guid>http://localhost:1313/week_1_outline/</guid>
       <description>&lt;p&gt;好久不見！&lt;/p&gt;&#xA;&lt;p&gt;Welcome to the new semester! It&amp;rsquo;s been awhile — if you were on the mailing list, you should&amp;rsquo;ve received an email to let you know that from now on, updates will be made on this web site. If anyone you know is interested, point them here!&lt;/p&gt;&#xA;&lt;p&gt;First, the When2Meet from last semester has been gathering potential time slots, and we&amp;rsquo;re converging on Fridays, from 4:00-5:00PM. We&amp;rsquo;ve booked the rooms as of today, and this is WAL 4510 for all meetings this semester.&lt;/p&gt;</description>
     </item>
     <item>
       <title>歡迎來2025春天！</title>
-      <link>https://ritcct.neocities.org/hello/</link>
+      <link>http://localhost:1313/hello/</link>
       <pubDate>Sat, 21 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://ritcct.neocities.org/hello/</guid>
+      <guid>http://localhost:1313/hello/</guid>
       <description>&lt;h2 id=&#34;大好&#34;&gt;大好！&lt;/h2&gt;&#xA;&lt;p&gt;We&amp;rsquo;re always trying to improve our flow and structure, which for a long time now has involved a basic HTML site that didn&amp;rsquo;t have very much functionality and was always in need of improvement.&lt;/p&gt;&#xA;&lt;p&gt;In order to make the site easier to manage, broadcast messages more widely, and to have a more professional appearance, we&amp;rsquo;ve got a new web presence for the new semester!&lt;/p&gt;&#xA;&lt;p&gt;All future announcements will come out here, but as of yet, these announcements don&amp;rsquo;t include the verdict on whether or not we&amp;rsquo;re recognized on CampusGroups. 謝謝你們都有耐心，我希望能快快地來告訴你一些好消息。&lt;/p&gt;</description>
     </item>
   </channel>
