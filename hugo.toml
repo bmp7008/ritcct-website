@@ -18,11 +18,6 @@ name = "Calendar"
 weight = 2
 
 [[menu.main]]
-url = "https://forms.gle/GZMPKYmoNBqEWpw59"
-name = "Attendance"
-weight = 3
-
-[[menu.main]]
 url = "https://discord.gg/7D4qKgA4Us"
 name = "Discord"
-weight = 4
+weight = 3
