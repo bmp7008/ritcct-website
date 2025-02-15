@@ -1,164 +1,448 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <title>RIT Chinese Conversation Table</title>
-  <meta property="og:title" content="RIT Chinese Conversation Table" />
-  <meta name="twitter:title" content="RIT Chinese Conversation Table" />
-  <meta name="author" content=""/>
-  <meta property="og:site_name" content="RIT Chinese Conversation Table" />
-  <meta property="og:url" content="https://ritcct.neocities.org/" />
-  <meta property="og:type" content="website" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.140.0">
-  <link href="/index.xml" rel="alternate" type="application/rss+xml" title="RIT Chinese Conversation Table" />
-  <link href="/index.xml" rel="feed" type="application/rss+xml" title="RIT Chinese Conversation Table" />
-  <link rel="stylesheet" href="/css/style.css" media="all" />
-  <link rel="stylesheet" href="/css/style-dark.css" media="all and (prefers-color-scheme: dark)" />
+<html lang="en"><head>
+	<meta name="generator" content="Hugo 0.140.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<title>RIT Chinese Conversation Table</title>
 
-  <link rel="stylesheet" href="/css/syntax.css" media="all" />
-  <link rel="stylesheet" href="/css/custom.css" media="all" />
 
-  <script src="/js/script.js"></script>
-  <script src="/js/custom.js"></script>
-  <script defer src="/fontawesome/all.min.js"></script>
+
+  
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=5, user-scalable=5" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+    <link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="/scss/dark-mode.min.cb53f1bee2b8900cb4f082afbf00175d6618f281cf9a2fe8619e3b52d20b5721.css" integrity="sha256-y1PxvuK4kAy08IKvvwAXXWYY8oHPmi/oYZ47UtILVyE=" media="screen">
+
+
+<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Material+Icons">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </head>
-
 <body>
+    	<div id="app"><div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/about">
+                    About
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="https://pastecal.com/8P47KLUH?date=2025-02-15&amp;view=month">
+                    Calendar
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="https://forms.gle/GZMPKYmoNBqEWpw59">
+                    Attendance
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="https://discord.gg/7D4qKgA4Us">
+                    Discord
+                </a>
+                
+            
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="http://localhost:1313/">
+            RIT Chinese Conversation Table
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="http://localhost:1313/">
+        <div class="single-column-header-title">RIT Chinese Conversation Table</div>
+        
 
-<header class="site-header">
-  <nav class="site-navi">
-    <h1 class="site-title"><a href="/">RIT Chinese Conversation Table</a></h1>
-    <ul class="site-navi-items">
-      <li class="site-navi-item-"><a href="/about" title="About">About</a></li>
-      <li class="site-navi-item-"><a href="https://forms.gle/GZMPKYmoNBqEWpw59" title="Attendance">Attendance</a></li>
-      <li class="site-navi-item-"><a href="https://discord.gg/7D4qKgA4Us" title="Discord">Discord</a></li>
-    </ul>
-  </nav>
-</header>
-<hr class="site-header-bottom">
+    </a>
+</div>
 
-  <div class="main" role="main">
-    <section class="list home-list">
-      <article class="article">
-        <a href="/week_5_news/" class="article-titles">
-          <h2 class="article-title">Week 5 — News</h2>
-          
-        </a>
-        <ul class="article-meta">
-          <li class="article-meta-date"><time>13 Feb 2025</time></li>
-        </ul>
-        <div class="article-content">
-          <p>嗨！</p>
-<p>This week, we&rsquo;re going to continue to do the same kinds of conversation practice and group activities that we&rsquo;ve been running for the past few weeks. We&rsquo;ll be in the same place at the same time (WAL 4510 from 4 PM to 5 PM).</p>
-<p>We&rsquo;ve run the second When2Meet for this semester for a little while, now, and it looks like we&rsquo;re not going to be able to find a single time that works for everyone. So, as of next week, we&rsquo;re going to start meeting twice a week — once during the normal meeting time, and then a second group study session at 6:30 on Wednesdays. We still don&rsquo;t have room-booking capacity, so for choosing a place, we should pick somewhere public — like RITz or the first floor of the library. You can vote for a location <a href="https://forms.gle/Mu4xpis79CQLYLf86">here</a>.</p>
-        </div>
-        <div class="article-readmore"><a href="/week_5_news/">Read more...</a></div>
-        <div class="article-floatclear"></div>
-      </article>
-      <article class="article">
-        <a href="/week_4_what_s_new/" class="article-titles">
-          <h2 class="article-title">Week 4 — What&#39;s New</h2>
-          
-        </a>
-        <ul class="article-meta">
-          <li class="article-meta-date"><time>06 Feb 2025</time></li>
-        </ul>
-        <div class="article-content">
-          <p>歡迎來2月!</p>
-<p>While we&rsquo;re still waiting to be able to make a few changes to our scheduling, location, and advertisement — we have a new poster that we&rsquo;ll start hanging on boards around campus once we&rsquo;re (hopefully) officialized — at the moment, we&rsquo;re still in WAL 4510 from 4-5PM.</p>
-<p>As far as activities go, we still have board and card games, and any that you might have and want to bring are welcome too — especially video games, like Jackbox games, which might be a little bit more fun &amp; engaging than the separate group activities that we&rsquo;ve tried before. Last week&rsquo;s Google Slides presentation practice was interesting, but trying the same idea with Talking Points from Jackbox Party Pack 7 might be even better. If you have a copy of that game and want to bring it, you definitely can — if not, we&rsquo;ll probably have to invest the thirty dollars sometime soon, because this seems like a good idea.</p>
-        </div>
-        <div class="article-readmore"><a href="/week_4_what_s_new/">Read more...</a></div>
-        <div class="article-floatclear"></div>
-      </article>
-      <article class="article">
-        <a href="/week_3_updates/" class="article-titles">
-          <h2 class="article-title">Week 3 — Updates</h2>
-          
-        </a>
-        <ul class="article-meta">
-          <li class="article-meta-date"><time>30 Jan 2025</time></li>
-        </ul>
-        <div class="article-content">
-          <p>新年快乐！</p>
-<p>This week&rsquo;s meeting will run similarly to last week&rsquo;s, because a lot of people are probably going to go to the New Year&rsquo;s celebration events happening around campus — if you want to show up, we&rsquo;ll be in WAL 4510 again from 4:00-5:00PM. Since we might have a smaller group, we&rsquo;ll try to think of activities that can get us all doing the same thing (i.e. one-minute introductions).</p>
-<p>One idea that could be fun is giving everybody 15 minutes to create a presentation full of random pictures (put in whatever you want, as long as there are no words and it&rsquo;s a reasonable length) and then trading presentations between people and having them improvise and give the presentation (in Mandarin, of course). If we have enough agreement that this is a good idea, we might try that this Friday (and if it&rsquo;s successful, we&rsquo;ll definitely do it again later).</p>
-        </div>
-        <div class="article-readmore"><a href="/week_3_updates/">Read more...</a></div>
-        <div class="article-floatclear"></div>
-      </article>
-      <article class="article">
-        <a href="/week_2_first_meeting/" class="article-titles">
-          <h2 class="article-title">Week 2 — First Meeting</h2>
-          
-        </a>
-        <ul class="article-meta">
-          <li class="article-meta-date"><time>23 Jan 2025</time></li>
-        </ul>
-        <div class="article-content">
-          <p>大好，我們開學了！</p>
-<p>There isn&rsquo;t much new information to add for tomorrow&rsquo;s meeting because we planned it out last week — we&rsquo;re still going to bring board games, and we&rsquo;ll be meeting in WAL 4510 on Friday, January 24, from 4:00–5:00PM.</p>
-<p>We&rsquo;re going to have Chinese chess (象棋) and Catan, probably at least a few decks of cards, and whichever other board games anyone attending might have and want to bring.</p>
-<p>It is looking, though, like as we try to build the club and gain membership, we&rsquo;re running into scheduling troubles — right now, on the When2Meet for this semester (which is still open, linked on the &ldquo;About&rdquo; tab, if you would like to change your response or fill it out if you haven&rsquo;t already), there isn&rsquo;t one single time that everyone is available, so we&rsquo;ve been discussing introducing some ways that we can have asynchronous club engagement in addition to the in-person meetings.</p>
-        </div>
-        <div class="article-readmore"><a href="/week_2_first_meeting/">Read more...</a></div>
-        <div class="article-floatclear"></div>
-      </article>
-      <article class="article">
-        <a href="/week_1_outline/" class="article-titles">
-          <h2 class="article-title">Week 1 — Outline</h2>
-          
-        </a>
-        <ul class="article-meta">
-          <li class="article-meta-date"><time>14 Jan 2025</time></li>
-        </ul>
-        <div class="article-content">
-          <p>好久不見！</p>
-<p>Welcome to the new semester! It&rsquo;s been awhile — if you were on the mailing list, you should&rsquo;ve received an email to let you know that from now on, updates will be made on this web site. If anyone you know is interested, point them here!</p>
-<p>First, the When2Meet from last semester has been gathering potential time slots, and we&rsquo;re converging on Fridays, from 4:00-5:00PM. We&rsquo;ve booked the rooms as of today, and this is WAL 4510 for all meetings this semester.</p>
-        </div>
-        <div class="article-readmore"><a href="/week_1_outline/">Read more...</a></div>
-        <div class="article-floatclear"></div>
-      </article>
-      <article class="article">
-        <a href="/hello/" class="article-titles">
-          <h2 class="article-title">歡迎來2025春天！</h2>
-          
-        </a>
-        <ul class="article-meta">
-          <li class="article-meta-date"><time>21 Dec 2024</time></li>
-        </ul>
-        <div class="article-content">
-          <h2 id="大好">大好！</h2>
-<p>We&rsquo;re always trying to improve our flow and structure, which for a long time now has involved a basic HTML site that didn&rsquo;t have very much functionality and was always in need of improvement.</p>
-<p>In order to make the site easier to manage, broadcast messages more widely, and to have a more professional appearance, we&rsquo;ve got a new web presence for the new semester!</p>
-<p>All future announcements will come out here, but as of yet, these announcements don&rsquo;t include the verdict on whether or not we&rsquo;re recognized on CampusGroups. 謝謝你們都有耐心，我希望能快快地來告訴你一些好消息。</p>
-        </div>
-        <div class="article-readmore"><a href="/hello/">Read more...</a></div>
-        <div class="article-floatclear"></div>
-      </article>
-    </section>
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-no-background">
+        
+        
+            <a href="/posts/2245_week_5/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-divider">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                Week 5 [2245]
+                            </div>
+                            <div class="post-item-summary">
+                                
+                                    <p>This week, we&rsquo;re going to continue to do the same kinds of conversation practice and group activities that we&rsquo;ve been running for the past few weeks. We&rsquo;ll be in the same place at the same time (WAL 4510 from 4 PM to 5 PM).</p>
+                                
+                            </div>
+                            <div class="post-item-meta">
+    2025-02-13
+    &emsp;
     
-  </div>
+    
+    
+    &emsp;
+    
+</div>
+
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+        
+            <a href="/posts/2245_week_4/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-divider">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                Week 4 [2245]
+                            </div>
+                            <div class="post-item-summary">
+                                
+                                    <p>While we&rsquo;re still waiting to be able to make a few changes to our scheduling, location, and advertisement — we have a new poster that we&rsquo;ll start hanging on boards around campus once we&rsquo;re (hopefully) officialized — at the moment, we&rsquo;re still in WAL 4510 from 4-5PM.</p>
+                                
+                            </div>
+                            <div class="post-item-meta">
+    2025-02-06
+    &emsp;
+    
+    
+    
+    &emsp;
+    
+</div>
+
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+        
+            <a href="/posts/2245_week_3/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-divider">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                Week 3 [2245]
+                            </div>
+                            <div class="post-item-summary">
+                                
+                                    <p>This week&rsquo;s meeting will run similarly to last week&rsquo;s, because a lot of people are probably going to go to the New Year&rsquo;s celebration events happening around campus — if you want to show up, we&rsquo;ll be in WAL 4510 again from 4:00-5:00PM. Since we might have a smaller group, we&rsquo;ll try to think of activities that can get us all doing the same thing (i.e. one-minute introductions).</p>
+                                
+                            </div>
+                            <div class="post-item-meta">
+    2025-01-30
+    &emsp;
+    
+    
+    
+    &emsp;
+    
+</div>
+
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+        
+            <a href="/posts/2245_week_2/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-divider">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                Week 2 [2245]
+                            </div>
+                            <div class="post-item-summary">
+                                
+                                    <p>There isn&rsquo;t much new information to add for tomorrow&rsquo;s meeting because we planned it out last week — we&rsquo;re still going to bring board games, and we&rsquo;ll be meeting in WAL 4510 on Friday, January 24, from 4:00–5:00PM.</p>
+                                
+                            </div>
+                            <div class="post-item-meta">
+    2025-01-23
+    &emsp;
+    
+    
+    
+    &emsp;
+    
+</div>
+
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+        
+            <a href="/posts/2245_week_1/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-divider">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                Week 1 [2245]
+                            </div>
+                            <div class="post-item-summary">
+                                
+                                    <p>Welcome to the new semester! It&rsquo;s been awhile — if you were on the mailing list, you should&rsquo;ve received an email to let you know that from now on, updates will be made on this web site. If anyone you know is interested, point them here!</p>
+                                
+                            </div>
+                            <div class="post-item-meta">
+    2025-01-14
+    &emsp;
+    
+    
+    
+    &emsp;
+    
+</div>
+
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+        
+            <a href="/about/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-divider">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                About
+                            </div>
+                            <div class="post-item-summary">
+                                
+                                    <p>欢迎！</p>
+<p>The Chinese Conversation Table is a student group for getting together, practicing language skills and vocabulary, sharing information, and discussing topics about the greater Chinese-speaking world.</p>
+<p>Right now, we meet between 4 PM and 5 PM every Friday in WAL 4510. For more information, join the Discord server linked in the navbar.</p>
+<p>On our site you can find announcements, the attendance form, and a number of other links and forms. Each week, we make announcements with the time, place, and plans for our upcoming meeting.</p>
+                                
+                            </div>
+                            <div class="post-item-meta">
+    2025-01-01
+    &emsp;
+    
+    
+    
+    &emsp;
+    
+</div>
+
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+        
+        </a>
+    </div>
 
 
+                    </div>
+            </div><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head active" href="http://localhost:1313/">
+    
+        <div class="nav-title">
+            RIT Chinese Conversation Table
+        </div>
+        
+    </a>
 
-<div class="site-footer">
-  <div class="copyright">RIT Chinese Conversation Table</div>
-  <ul class="site-footer-items">
-    <li class="site-footer-item-rsslink">
-      <a href="/index.xml" type="application/rss+xml" target="_blank" title="RSS">
-        <i class="fa-solid fa-rss"></i>
-      </a>
-    </li>
-  </ul>
-  <div class="powerdby">
-    Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
-  </div>
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/about">
+                About
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="https://pastecal.com/8P47KLUH?date=2025-02-15&amp;view=month">
+                Calendar
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="https://forms.gle/GZMPKYmoNBqEWpw59">
+                Attendance
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="https://discord.gg/7D4qKgA4Us">
+                Discord
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	RIT Chinese Conversation Table
+	
+
+    </div>
+    
+</div><div id="extraContainer" class="extra-container">
+    <div class="toc-wrapper">
+        
+
+        
+    </div>
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top"
+            :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+        
+        
+    </div>
 </div>
 
 
-</body>
+
+
+<div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	RIT Chinese Conversation Table
+	
+</div>
+            </div>
+    
+    <script src="/js/journal.js"></script></body>
 </html>
