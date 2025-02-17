@@ -11,6 +11,6 @@ Right now, we meet between 4 PM and 5 PM every Friday in WAL 4510. For more info
 
 On our site you can find announcements and our calendar. Each week, we broadcast the time, place, and plans for our upcoming meeting.
 
-If you have any suggestions, just show up with them or add them to the calendar — new ideas are always welcome. Thank you for your interest!
+If you have any suggestions, just show up with them or fill out the suggestions form — new ideas are always welcome. Thank you for your interest!
 
 谢谢你看一看！
