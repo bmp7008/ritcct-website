@@ -13,7 +13,7 @@ name = "About"
 weight = 1
 
 [[menu.main]]
-url = "https://pastecal.com/8P47KLUH?date=2025-02-15&view=month"
+url = "https://pastecal.com/8P47KLUH?view=month"
 name = "Calendar"
 weight = 2
 
