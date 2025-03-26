@@ -1,7 +1,7 @@
 baseURL = 'https://www.ritcct.com/'
 languageCode = 'en-us'
-title = 'RIT Chinese Conversation Table'
-copyright = 'RIT Chinese Conversation Table'
+title = '中文角 RIT Chinese Conversation Table'
+copyright = '中文角 RIT Chinese Conversation Table'
 theme = 'hugo-theme-diary'
 
 [params]
